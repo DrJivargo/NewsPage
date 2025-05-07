@@ -1,0 +1,102 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unwatched-content{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border-top: 1px solid black ;
+  width: 65%;
+}
+.media{
+  box-sizing: border-box;
+}
+.nav-contend{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+nav{
+  display: flex;
+  position: relative;
+  align-items: end;
+  width: 300px;
+  height: 150px;
+}
+.nav-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 50px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+  padding: 20px;
+
+}
+.nav1{
+  background-image: url("/img/unwatched-content 1.webp");
+  background-size: cover;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.nav2{
+  background-image: url("/img/unwatched-content 2.webp");
+  background-size: cover;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.nav3{
+  background-image: url("/img/unwatched-content 3.webp");
+  background-size: cover;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.nav4{
+  background-image: url("/img/unwatched-content 4.webp");
+  background-size: cover;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.nav5{
+  background-image: url("/img/unwatched-content 5.webp");
+  background-size: cover;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.video-tag{
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.video-media{
+  position: absolute;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  display: flex;
+  border-radius: 50px;
+  border: none;
+  background: #003676;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,42 @@
+.similar-news{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ebebeb;
+  padding: 20px;
+  margin: 20px 350px ;
+
+}
+.legend{
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  background: #003676;
+  color: #fff;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 550;
+  font-size: 19px;
+  line-height: 22px;
+}
+li{
+  list-style: none;
+  border-bottom: 1px solid black ;
+  margin:  10px 0;
+  padding-bottom: 15px;
+
+  &:last-child{
+    border-bottom: none;
+  }
+}
+ul{
+  padding:  0;
+  margin: 0 ;
+
+}
