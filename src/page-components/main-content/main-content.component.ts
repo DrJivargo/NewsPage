@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from "@angular/router";
 import {SvgIconComponent} from '../../helpers/svg-icon.component';
-import {DatePipe, NgIf} from '@angular/common';
-import {SidebarComponent} from '../sidebar/sidebar.component';
+import {DatePipe} from '@angular/common';
 
 @Component({
   selector: 'app-main-content',
@@ -11,8 +10,6 @@ import {SidebarComponent} from '../sidebar/sidebar.component';
     RouterLink,
     SvgIconComponent,
     DatePipe,
-    NgIf,
-    SidebarComponent
   ],
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.scss'

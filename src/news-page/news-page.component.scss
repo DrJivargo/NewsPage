@@ -1,0 +1,21 @@
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.main-page{
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  padding: 16px;
+  transition: filter 0.3s ease;
+}
+.main.inactive {
+  filter: blur(2px);
+  pointer-events: none;
+  user-select: none;
+}
